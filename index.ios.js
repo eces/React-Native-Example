@@ -70,7 +70,7 @@ var AwesomeProject = React.createClass({
           scrollEnabled={true}
           showsVerticalScrollIndicator={true}
           contentInset={{
-            bottom: 100,
+            bottom: 150,
           }}
         />
       </View>
@@ -134,7 +134,7 @@ var styles = StyleSheet.create({
     height: 200,
   },
   listView: {
-    backgroundColor: '#F5FCFF'
+    backgroundColor: '#F5FCFF',
   },
 });
 
