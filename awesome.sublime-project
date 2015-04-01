@@ -1,0 +1,21 @@
+{
+	"folders":
+	[
+		{
+			"path": "."
+		}
+	],
+  "SublimeLinter":
+  {
+    "linters":
+    {
+      "flake8": {
+        "excludes": [
+          "*/test/**",
+          "node_modules"
+        ],
+        "ignore": "W"
+      }
+    }
+  }
+}
